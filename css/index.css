@@ -1,0 +1,62 @@
+*, *::after, *::before {
+    box-sizing: border-box0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/bg3.jpg);
+    opacity: 1;
+    background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}  
+
+ul {
+    padding-right: 2%;
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    display: block;
+    margin-right: 2%;
+}
+
+li a {
+    font-size: 30;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content{
+    border: white 2px ;
+    border-style: outset;
+    height:250px;
+    width:30%;
+    border-radius: 5%;
+    align-content: center;
+    position:absolute;
+    top:250px;
+    bottom: 200px;
+    left:900px;
+    right:0px;
+    background-color: white; 
+    opacity: 0.7;
+
+}
+.welcome{
+    color: blue;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    padding-top:45px ;
+    
+}
+.button2{
+    text-align: center;
+    padding-top:10px ;
+    
+}

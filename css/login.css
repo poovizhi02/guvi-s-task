@@ -1,0 +1,29 @@
+*, *::after, *::before {
+    box-sizing: border-box0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/bg9.jpg);
+    opacity: 1;
+    background-size: 100% 100%;
+  width: 99%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.login{
+    border: white 2px ;
+    border-style: outset;
+    height:auto;
+    width:30%;
+    align-content: center;
+    position:absolute;
+    text-align: center;
+    top:100px;
+    bottom:100px;
+    left:1000px;
+    right:0px;
+    background-color: white; 
+    opacity: 0.8;
+
+}
